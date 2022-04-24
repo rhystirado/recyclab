@@ -13,33 +13,50 @@
 
 .header {
   background-color: rgb(160, 217, 239);
+  background-color: wheat;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 16px;
 }
 
 .header-logo {
   height: 48px;
+  padding: 8px 16px;
+}
+
+.right-header-items {
+  /* background-color: wheat; */
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login-item {
   color: #0082ce;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 18px;
+  
 }
 
 .login-link {
   text-decoration: none;
-  color: #0082ce;
+  color: rgb(4, 55, 106);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  font-weight: bold;
+  padding: 0 16px;
 }
 
 .login-link:hover {
-  color: blue;
+  background-color: antiquewhite;
+  color: rgb(4, 55, 106);
 }
 
 .content {
-  background-color: rgb(215, 240, 248);
+  /* background-color: rgb(215, 240, 248); */
+  background-color: rgb(255, 244, 223);
   flex: 1;
   display: flex;
   justify-content: center;
@@ -65,8 +82,15 @@
   border: 2px black solid;
 }
 
+.content-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(2, 4, 5);
+}
+
 .footer {
-  background-color: rgb(160, 217, 239);
+  /* background-color: rgb(160, 217, 239); */
+  background-color: wheat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +99,7 @@
 .footer-text {
   font-size: 18px;
   font-weight: bold;
-  color: #0082ce;
+  color: rgb(4, 55, 106);
   display: flex;
   gap: 8px;
 }
