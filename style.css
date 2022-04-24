@@ -23,6 +23,28 @@
 .content {
   background-color: lightpink;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.content-card {
+  width: 150px;
+}
+
+.card-image {
+  width: 150px;
+  height: 150px;
+  border: 2px black solid;
 }
 
 .footer {
